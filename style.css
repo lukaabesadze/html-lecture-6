@@ -1,5 +1,12 @@
-header{
+*{
+    background: #F1F1F1;
+}
 
+.mydiv{
+margin-left: 137px;
+margin-top: 11px;
+display: inline-block;
+vertical-align: middle;
 }
 li{
 color: #000;
@@ -9,7 +16,70 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 display: inline-block;
+padding-left: 35px;
 }
 .myimage1{
-    
+display: inline-block;
+vertical-align: middle;
+padding-left: 10px;
+margin-top: 11px;
+}
+/*end of the header*/
+
+.myh1{
+color: #000;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 170px;
+padding-top: 42px;
+}
+.image2{
+ width: 362px;
+height: 186px;
+flex-shrink: 0;
+border-radius: 5px 5px 0px 0px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+display: block;
+
+}
+.myp{
+color: #8A8787;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: #FFF;
+display: inline-block;
+vertical-align: middle;
+padding-top: 15px;
+}
+.myp1{
+color: #8A8787;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: #FFF;
+padding-top: 10px;
+
+}
+.mydiv3{
+width: 362px;
+height: 171px;
+border-radius: 0px 0px 5px 5px;
+background: #FFF;
+padding-top: 68px;
+padding-left: 37px;
+display: inline-block;
+}
+.img1{
+    background: #FFF;
+    vertical-align: middle;
+    padding-top: 15px;
+
 }
