@@ -1,6 +1,4 @@
-*{
-    background: #F1F1F1;
-}
+
 
 .mydiv{
 margin-left: 137px;
@@ -8,15 +6,16 @@ margin-top: 11px;
 display: inline-block;
 vertical-align: middle;
 }
-li{
+ .mydiv li{
 color: #000;
-font-family: Roboto;
 font-size: 11px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 display: inline-block;
 padding-left: 35px;
+font-family: "Roboto", sans-serif;
+font-style: normal;
 }
 .myimage1{
 display: inline-block;
@@ -28,13 +27,15 @@ margin-top: 11px;
 
 .myh1{
 color: #000;
-font-family: Roboto;
 font-size: 28px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 padding-left: 170px;
 padding-top: 42px;
+font-family: "Roboto", sans-serif;
+
+font-style: normal;
 }
 .image2{
  width: 362px;
@@ -42,7 +43,7 @@ height: 186px;
 flex-shrink: 0;
 border-radius: 5px 5px 0px 0px;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-display: block;
+position: relative;
 
 }
 .myp{
@@ -67,6 +68,8 @@ line-height: normal;
 background: #FFF;
 padding-top: 10px;
 
+
+
 }
 .mydiv3{
 width: 362px;
@@ -75,11 +78,149 @@ border-radius: 0px 0px 5px 5px;
 background: #FFF;
 padding-top: 68px;
 padding-left: 37px;
-display: inline-block;
+
+
 }
 .img1{
     background: #FFF;
     vertical-align: middle;
     padding-top: 15px;
+   
 
+}
+.container{
+    display: inline-block;
+    padding-left: 40px;
+    
+}
+.container1{
+    margin-left: 138px;
+    margin-top: 40px;
+    
+}
+.myh10{
+color: #000;
+font-family:Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+color: #000;
+padding-left: 180px;
+padding-top: 57px;
+}
+
+
+
+.images{
+    padding-left: 175px;
+    padding-top: 30px;
+}
+
+.image13{
+     margin-top: 30px;
+     margin-left: 45px; 
+     width: 362px;
+     height: 212px; 
+     
+}
+.image14{
+margin-right: 45px;
+margin-left: 980px;
+width: 362px;
+height: 212px;
+}
+.myimages{
+    vertical-align: top;
+    display: inline-block;
+    
+}
+
+.image14{
+    margin-right: 45px;
+    margin-left: 980px;
+    width: 362px;
+    height: 212px;
+    display: inline-block;
+    }
+    .myimages2{
+        vertical-align: middle;
+        display: inline-block;
+        
+    }
+    .image15{
+width: 758px;
+height: 430px;
+border-radius: 5px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+
+margin-left: 180px;
+    }
+    .image16{
+width: 362px;
+height: 212px;
+border-radius: 5px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+display: inline-block;
+vertical-align:top;
+margin-top: 103px;
+    }
+
+
+
+    /* footer-----------------------------------------*/
+.box{
+width: 100%;
+height: 201px;
+background: #243043;
+padding-left: 137px;
+
+
+    }
+.box1{
+color: #818687;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: inline-block;
+
+    }
+.box2{
+    color: #818687;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: inline-block;
+
+}
+.box3{
+    color: #818687;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;   
+}
+.box li{
+    padding-top: 14px;
+    padding-left: 75px;
+}
+.myparagraph{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 600px;
+    justify-content: center;
+         
+}
+.whitelogo{
+    padding-left: 1564px;
 }
